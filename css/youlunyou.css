@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 572233 */
+  src: url('https://at.alicdn.com/t/font_572233_4zefm683dyqa1yvi.eot');
+  src: url('https://at.alicdn.com/t/font_572233_4zefm683dyqa1yvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_572233_4zefm683dyqa1yvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_572233_4zefm683dyqa1yvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_572233_4zefm683dyqa1yvi.svg#iconfont') format('svg');
+}
+body{
+	font-size: 12px;
+	background-color: #F2F4F7;
+}
+.box{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 999;
+	overflow-y: scroll;
+}
+.box::-webkit-scrollbar{
+	display: none;
+}
+#top{
+	width: 100%;
+	height: 1.5rem;
+	background-color: #F0F0F0;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#top .jiantou{
+	font-family: 'iconfont'; 
+	font-size: 0.62rem;
+	margin-left: 0.45rem;
+	color: #37BE62;
+	float: left;
+	line-height: 1.5rem;
+}
+#top a{
+	color: #37BE62;
+}
+.sousuo{
+	width: 8.04rem;
+	height: 1.02rem;
+	background-color: #fff;
+	margin-left: 0.46rem;
+	margin-top: 0.24rem;
+	border-radius: 0.1rem;
+	line-height: 1.02rem;
+	float: left;
+}
+.sousuo i{
+	font-family: 'iconfont'; 
+	font-size: 0.44rem;
+	margin-left: 0.26rem;
+	margin-right: 0.2rem;
+	color: #BBBBBB;
+	float: left;
+}
+.sousuo p{
+	font-size: 0.38rem;
+	color: #BBBBBB;
+}
+#top .gengduo{
+	margin-left: 0.38rem;
+	font-family: 'iconfont'; 
+	font-size: 0.44rem;
+	line-height: 1.5rem;
+	color: #525667;
+}
+#banner{
+	width: 100%;
+	height: 4.05rem;
+}
+.banner1{
+	width: 100%;
+	height: 4.05rem;
+}
+.content_1{
+	width: 100%;
+	height: 2.93rem;
+	background-color: #fff;
+	border-bottom: 0.01rem solid #ccc;
+	overflow: hidden;
+}
+.content_1_kuang{
+	width: 3.23rem;
+	height: 0.83rem;
+	border: 0.02rem solid #ccc;
+	margin: 0.48rem 0.19rem 0 0.3rem;
+	float: left;
+	border-radius: 0.05rem;
+}
+.content_1_kuang1{
+	margin-left: 0;
+}
+.content_1_kuang2{
+	margin-top: 0.24rem;
+}
+.content_1 p{
+	font-size: 0.38px;
+	color: #363636;
+	line-height: 0.83rem;
+	text-align: center;
+}
+.content_1_kuang a{
+	color: #363636;
+}
+.content_2{
+	width: 100%;
+	height: 0.26rem;
+	border-bottom:0.02rem solid #D4D4D4;
+	border-top:0.02rem solid #D4D4D4;
+	background-color: #fff;
+}
+.content_3{
+	width: 100%;
+	height: 7.08rem;
+	background-color: #fff;
+	border-bottom:0.02rem solid #D4D4D4;
+	overflow: hidden;
+}
+.content_3_pic{
+	width: 10.2rem;
+	height: 3.37rem;
+	margin: .45rem auto 0;
+}
+.content_3_pic img{
+	width: 10.2rem;
+	height: 3.37rem;
+}
+.content_3_kuang{
+	width: 4.91rem;
+	height: 2.47rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+	border: 0.02rem solid #C6C6C6;
+	float: left;
+}
+.content_3pic{
+	width: 2rem;
+	height: 2rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+.content_3_kuang h1{
+	font-size: 0.4rem;	
+	color: #404040;
+	margin-top: 0.48rem;
+}
+.content_3_kuang h2{
+	font-size: .34rem;
+	color: #696969;
+}
+.content_4{
+	height: 3.03rem;
+	border-bottom:0.02rem solid #D4D4D4;
+	display: flex;
+	overflow-x:scroll;
+}
+.content_4::-webkit-scrollbar{
+	display: none;
+}
+.content_4_1{
+	width: 3.58rem;
+	height: 2.43rem;
+	margin-left: 0.15rem;
+	margin-top: 0.3rem;
+	float: left;
+	flex-shrink:0; 
+}
+.content_4_2{
+	width: 100%;
+	height: 0.87rem;
+	background-color: #80DACA;
+}
+.content_4_3{
+	width: 100%;
+	height: 1.54rem;
+	background-color: #80DACA;
+}
+.content_4_2 p{
+	color: #fff;
+	font-size: 0.4rem;
+	line-height: 0.87rem;
+	text-align: center;
+}
+.content_4_3 img{
+	width: 100%;
+	height: 1.54rem;
+}
+.content_5{
+	width: 100%;
+	height: 1.17rem;
+	background-color: #fff;
+}
+.content_5 p{
+	font-size:0.4rem; 
+	color: #757575;
+	line-height: 1.17rem;
+	margin-left: 0.74rem;
+}
+.content_6{
+	width: 100%;
+	height: 3.75rem;
+	background-color: #fff;
+}
+.content_7{
+	width: 10.34rem;
+	height: 3.75rem;
+	background-color: #fff;
+	border-bottom: 0.02rem solid #D4D4D4;
+	float: right;
+}
+.content_7_1{
+	width: 2.4rem;
+	height: 3.15rem;
+	float: left;
+}
+.content_7_1 p{
+	width: 7.36rem;
+	height: 1.23rem;
+	font-size: 0.4rem;
+	color: #232323;
+	float: left;
+	margin-left: 0.3rem;
+}
+.content_7 h1{
+	font-size: 0.3rem;
+	color: #999999;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+	font-weight: 400;
+}
+.content_7 .text_right{
+	margin-left: 2rem;
+}
+.content_7 h2{
+	font-size: 0.34rem;
+	color: #FF5600;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.25rem;
+}
+.content_7 .text_right1{
+	margin-left: 2.5rem;
+}

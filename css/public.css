@@ -1,0 +1,15 @@
+*{
+	margin: 0;/* body-8px */
+	padding: 0;
+	text-decoration: none;/* 下划线 */
+	font-style: normal;/* 斜体 */
+	list-style: none;  /* 列表 */
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 选中高亮颜色 */
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+}
